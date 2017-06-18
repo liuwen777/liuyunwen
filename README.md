@@ -1,12 +1,12 @@
 ## 技术文档
 * [Linux 安装和基本命令](./mysql-doc01.md)  
 * [Git 基本命令](./mysql-doc.02.md)  
-* [数据库 Mysql 的安装](./mysql-doc04.md)   
+* [数据库 Mysql 的安装](./mysql-doc05.md)   
 
 
 
 ## 课程设计
-* [学生管理系统](./mysql-doc03.md)
+* [学生管理系统表的设计](./mysql-doc04.md)
 
 
 ## 每天计划
