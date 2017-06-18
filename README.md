@@ -1,7 +1,7 @@
 ## 技术文档
-* [linux 安装和基本命令](./mysql-doc01.md)  
+* [Linux 安装和基本命令](./mysql-doc01.md)  
 * [Git 基本命令](./mysql-doc.02.md)  
-* [Vim 安装和基本命令](./mysql-doc04.md)   
+* [数据库 Mysql 的安装](./mysql-doc04.md)   
 
 
 
