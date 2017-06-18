@@ -1,12 +1,12 @@
 ## 技术文档
 * [linux 安装和基本命令](./mysql-doc01.md)  
-* [Git 基本命令](./mysql-doc02.md)  
-* [Vim 安装和基本命令](./mysql-doc03.md)   
+* [Git 基本命令](./mysql-doc.02.md)  
+* [Vim 安装和基本命令](./mysql-doc04.md)   
 
 
 
 ## 课程设计
-* [学生管理系统](./mysql-doc04.md)
+* [学生管理系统](./mysql-doc03.md)
 
 
 ## 每天计划
