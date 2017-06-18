@@ -19,19 +19,46 @@
         
          把文件加到仓库中去, 只有加到仓库中了, 才可能看一下文件的变化，加到仓库的命令：git add demo，加入后查看的状态信息如：
          
-         查看完后进行提交，
-init file
+         查看完后进行提交，(git commit),输入完后回车会进入到一个页面，可以输入此次修改的名字和操作的内容。
+配置用户信息
 
-new file
+配置用户名, 这个用户名是你的提交patch的名子,
 
-# Please enter the commit message for your changes. Lines starting
-# with '#' will be ignored, and an empty message aborts the commit.
-# On branch master
-#
-# Initial commit
-#
-# Changes to be committed:
-#       new file:   demo.c
+$ git config --global user.name
+1
+配置用户邮箱, 这个邮箱最好写你最常用的邮箱, 说不定会有人给你写邮件的, 这个是可能来自世界的任何角落, 可能是任何肤色和眼睛.
+
+$ git config --global user.email
+1
+配置编辑提交信息的编辑器, 我们熟悉的编辑器是vim. 使用这个去编辑提交信息, 最好把每一次提交信息填写写的全面, 不是为了给别人看, 万一那天自己想回顾一下. 也需要详细的信息.
+
+$ git config --global core.editor vim
+1
+查看提交信息
+我现在把仓库里的README这个文件给删除了. 然后再使用ls命令查看文件, 看看这个文件是否还存在.
+
+$ rm README
+$ ls
+$ ls -al
+123
+文件已经被删除了, 这是我们使用linux基本命令去查看文件是不是还存在这个目录中.现在我们使用git去查看一下现在仓库是什么状态
+
+$ git status
+1
+发现这个文件是误删了, 我们想把它恢复回来, 现在我们有办法吗? 如果没有将这个文件提交到仓库里, 我们是没有办法将它恢复的.
+
+$ git checkout README
+1
+然后我们再用ls查看一下文件是否存在.
+
+$ ls -al
+1
+再查看git仓库是状态
+
+$ git status
+1
+说明, 只要将文件提交到git仓库中
+
 
 
          
