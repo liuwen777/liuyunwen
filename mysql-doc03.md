@@ -31,7 +31,4 @@
       3.sudo tasksel
    >>### 安装 Workbench（数据库可视化界面）
       1. sudo apt-get install mysql-workbench
-  >>## MySQL 命令行操作
-     1.连接到本机上的MYSQL:mysql -u root -p,直接回车即可进入到MYSQL中了，MYSQL的提示符是： mysql>
-     2.退出MYSQL命令： exit （回车）
-     3.创建数据库：create database <数据库名>
+ 
