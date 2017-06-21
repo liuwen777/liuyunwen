@@ -19,3 +19,5 @@
    
    5.查询表中数据：select <字段1，字段2，...> from < 表名 > where < 表达式 >，结果如：
    
+   6.
+   delete from 表名 where 表达式
