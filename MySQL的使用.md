@@ -19,5 +19,6 @@
    
    5.查询表中数据：select <字段1，字段2，...> from < 表名 > where < 表达式 >，结果如：
    
-   6.
-   delete from 表名 where 表达式
+   6.delete from 表名 where 表达式:删除表中的数据但不会影响表的属性。
+   7.修改表格：update 表名 set 字段=新值,... where 条件。
+   8.增加字段：alter table 表名 add字段 类型 其他，注意：一定要有属性的类型。
