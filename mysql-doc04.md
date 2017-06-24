@@ -35,5 +35,5 @@
 | 课程号 |cno| char（32） | 不空 |  |
 | 分数 |score|int(2||范围在1~100
 ### 创建视图
-！[创建视图sql语句]()
+！[创建视图sql语句](https://github.com/liuwen777/liuyunwen/blob/master/img/%E5%88%9B%E5%BB%BA%E8%A7%86%E5%9B%BE.png)
 
