@@ -39,7 +39,7 @@
    1.概念：什么叫版本, 一次提交就相当于一个版本. 如果更准确的说是提交的回退. 每一次提交都会将修改的状态提交到仓库中保存着, 这些信息都保存那里呢?都保存在.git的目录下。       
     2.git reset --hard commitID：回退到上次提交的版本的命令。注意：使用这个命令后,再使用git log命令不会查看到所有log的相关信息，但可以用下面的命令查看信息。提示信息如：        
     3.git reflog：查看后一次提交的CommitID  
-     ![版本回退后reflog](https://github.com/liuwen777/liuyunwen/blob/master/img/reflog.png)
+    ！[版本回退后reflog](https://github.com/liuwen777/liuyunwen/blob/master/img/reflog.png)
      
  >>>### 从仓库中删除文件
     1.git rm filename：进行删除操作，但是并没有真正从仓库中删除。       
