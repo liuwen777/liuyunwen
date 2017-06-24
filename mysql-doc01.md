@@ -23,10 +23,10 @@
    >>>- 6.find  ./dir  -name  "filename"：查找文件
    
 >>### 文档归档和压缩
-     >>>- 1.使用gzip和gunzip对文件进行压缩和解压缩         
-     >>>- 2.使用bzip2和bunzip2对文件进行压缩和解压缩        
-     >>>- 3.使用tar对文件和目录进行压缩和解压缩             
-     >>>- 4.举例如下：    
+   >>>- 1.使用gzip和gunzip对文件进行压缩和解压缩           
+   2.使用bzip2和bunzip2对文件进行压缩和解压缩          
+   3.使用tar对文件和目录进行压缩和解压缩   
+   4.举例如下：    
         gzip  filename          
         bzip2  filename         
         gunzip filename         
