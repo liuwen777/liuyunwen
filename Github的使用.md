@@ -13,5 +13,5 @@
 
  ## 拉取源码  
   我们已经拉取源码到本地了, 但是服务器上的git已经更新了, 当我们需要将服务器的源码与本地源友进行同步进时, 需要使用下面的命令：$ git pull
-  
+  ！[pull命令](https://github.com/liuwen777/liuyunwen/blob/master/img/pull%20%E5%91%BD%E4%BB%A4.png)
 
