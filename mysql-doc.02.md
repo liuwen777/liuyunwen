@@ -2,7 +2,7 @@
 >>## Git 的介绍和安装
  >>>### Git 的介绍  
  
-   1.版本控制（Revision control）是维护工程蓝图的标准作法，能追踪工程蓝图从诞生一直到定案的过程。
+   1.版本控制（Revision control）是维护工程蓝图的标准作法，能追踪工程蓝图从诞生一直到定案的过程。  
    2.版本控制也是一种软件工程技巧，借此能在软件开发的过程中，确保由不同人所编辑的同一代码文件案都得到同步。  
       
  >>>### Git 的安装
@@ -55,7 +55,9 @@
  >>>### patch 相关内容
     1.概念：patch多指补丁的意思, 在这里更多的指程序有一些bug, 需要我们进行fixed, 那fixed源码文件就是patch，patch实际上是保存两个文件的差异。  
     2.git format-patch -p1：生成patch 的命令，1代表的是数字，可以随意更改。！[生成patch](https://github.com/liuwen777/liuyunwen/blob/master/img/%E7%94%9F%E6%88%90patch.png) 
-    3.git am patch-name：git 打patch。    
+    3.git am patch-name：git 打patch。  
+    ！[打patch](https://github.com/liuwen777/liuyunwen/blob/master/img/%E6%89%93patch.png)
+    
       
      
  
