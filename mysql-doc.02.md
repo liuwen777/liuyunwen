@@ -37,8 +37,9 @@
  >>>### 版本回退  
 
    1.概念：什么叫版本, 一次提交就相当于一个版本. 如果更准确的说是提交的回退. 每一次提交都会将修改的状态提交到仓库中保存着, 这些信息都保存那里呢?都保存在.git的目录下。       
-    2.git reset --hard commitID：回退到上次提交的版本的命令。注意：使用这个命令后,再使用git log命令不会查看到所有log的相关信息，但可以用下面的命令查看信息。提示信息如： ！[版本回退](https://github.com/liuwen777/liuyunwen/blob/master/img/%E7%89%88%E6%9C%AC%E5%9B%9E%E9%80%80.png) 
-    3.git reflog：查看后一次提交的CommitID  
+    2.git reset --hard commitID：回退到上次提交的版本的命令。注意：使用这个命令后,再使用git log命令不会查看到所有log的相关信息，但可以用下面的命令查看信息。      
+    提示信息如： ！[版本回退](https://github.com/liuwen777/liuyunwen/blob/master/img/%E7%89%88%E6%9C%AC%E5%9B%9E%E9%80%80.png)   
+    3.git reflog：查看后一次提交的CommitID       
     ！[版本回退后reflog](https://github.com/liuwen777/liuyunwen/blob/master/img/reflog.png)
      
  >>>### 从仓库中删除文件
@@ -54,8 +55,8 @@
       
  >>>### patch 相关内容
     1.概念：patch多指补丁的意思, 在这里更多的指程序有一些bug, 需要我们进行fixed, 那fixed源码文件就是patch，patch实际上是保存两个文件的差异。  
-    2.git format-patch -p1：生成patch 的命令，1代表的是数字，可以随意更改。！[生成patch](https://github.com/liuwen777/liuyunwen/blob/master/img/%E7%94%9F%E6%88%90patch.png) 
-    3.git am patch-name：git 打patch。  
+    2.git format-patch -p1：生成patch 的命令，1代表的是数字，可以随意更改。！[生成patch](https://github.com/liuwen777/liuyunwen/blob/master/img/%E7%94%9F%E6%88%90patch.png)   
+    3.git am patch-name：git 打patch。    
     ！[打patch](https://github.com/liuwen777/liuyunwen/blob/master/img/%E6%89%93patch.png)
     
       
