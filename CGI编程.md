@@ -1,6 +1,6 @@
-># CGI 编程  
+# CGI 编程  
 
- >>## 安装相关软件
+ ## 安装相关软件
       1.Apache安装
            1)	根目录执行命令：sudo apt-get update          
            2)	根目录执行命令：sudo apt-get install tasksel          
@@ -22,11 +22,11 @@
       4	atom及其插件的安装  
          1)	安装atom，执行命令：sudo dpkg -i atom-amd64.deb  
 
-  >>## CGI 的概念  
+  ## CGI 的概念  
         CGI(Common Gateway Interface) 是WWW技术中最重要的技术之一，有着不可替代的重要地位。    
         CGI是外部应用程序（CGI程序）与WEB服务器之间的接口标准，是在CGI程序和Web服务器之间传递信息的过程。  
          
-   >>## CGI 的基本函数  
+   ## CGI 的基本函数  
         1)	获取表单数据：  
               cgiFormResultType cgiFormString(char *name, char *result, int max);  
               参数：name, 指定要获取的表单项的名字  
