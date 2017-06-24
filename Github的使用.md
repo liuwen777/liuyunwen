@@ -9,7 +9,8 @@
    如果我们本地的仓库进行开发, 交进行提交commit. 那么我们本地的仓库和远程的仓库就不能保持同步了.那么我们需要把本地的这次提交也要反映在远程的仓库上. 那    么  我们就需要使用push命令.  $ git push origin master   
  ## 从远程仓库同步 
      clone  
-    当我们知道git仓库的地址了(在github上有很多的开源仓库.), 就可以使用下面的命令将源码拉取到本地:$ git clone url   
+    当我们知道git仓库的地址了(在github上有很多的开源仓库.), 就可以使用下面的命令将源码拉取到本地:$ git clone url
+    ！[克隆命令](https://github.com/liuwen777/liuyunwen/blob/master/img/%E5%85%8B%E9%9A%86.png)
 
  ## 拉取源码  
   我们已经拉取源码到本地了, 但是服务器上的git已经更新了, 当我们需要将服务器的源码与本地源友进行同步进时, 需要使用下面的命令：$ git pull
