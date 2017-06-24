@@ -3,7 +3,7 @@
 * [Git 基本命令](./mysql-doc.02.md)  
 * [数据库 Mysql 的安装](./mysql-doc03.md) 
 * [Vim 的安装和基本命令](./Vim.md)
-* [CGI编程](./CGI编程.md)
+* [软件安装和CGI编程](./CGI编程.md)
 * [MySQL的使用](./MySQL的使用.md)
 * [Github 的使用](./Github的使用.md)
 
