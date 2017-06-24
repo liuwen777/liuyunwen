@@ -54,7 +54,7 @@
       
  >>>### patch 相关内容
     1.概念：patch多指补丁的意思, 在这里更多的指程序有一些bug, 需要我们进行fixed, 那fixed源码文件就是patch，patch实际上是保存两个文件的差异。  
-    2.git format-patch -p1：生成patch 的命令，1代表的是数字，可以随意更改。         
+    2.git format-patch -p1：生成patch 的命令，1代表的是数字，可以随意更改。！[生成patch](https://github.com/liuwen777/liuyunwen/blob/master/img/%E7%94%9F%E6%88%90patch.png) 
     3.git am patch-name：git 打patch。    
       
      
