@@ -14,14 +14,12 @@
          4)	修改目录权限  
               执行命令：sudo mkdir /usr/lib/cgi-bin/sx  
               执行命令：sudo chmod 777 /usr/lib/cgi-bin/sx  
-
-      3	 安装MySQL的C语言库  
+        3	 安装MySQL的C语言库  
           切换到根目录，更新源，执行命令：sudo apt-get update  
-          进行安装，执行命令：sudo apt-get install libmysqlclient-dev  
-
-      4	atom及其插件的安装  
+          进行安装，执行命令：sudo apt-get install libmysqlclient-dev    
+         4	atom及其插件的安装  
          1)	安装atom，执行命令：sudo dpkg -i atom-amd64.deb  
-
+   
    ## CGI 的概念  
         CGI(Common Gateway Interface) 是WWW技术中最重要的技术之一，有着不可替代的重要地位。    
         CGI是外部应用程序（CGI程序）与WEB服务器之间的接口标准，是在CGI程序和Web服务器之间传递信息的过程。  
